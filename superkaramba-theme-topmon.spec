@@ -2,7 +2,7 @@
 %define theme_name      topmon
 %define name            %{base_name}-%{theme_name}
 %define version         0.3
-%define release         %mkrel 1
+%define release         %mkrel 2
 
 Name:	 %{name}
 Version: %{version}
@@ -43,6 +43,7 @@ fi
 %postun
 if [ $1 = 0 ]; then
 cat %{_datadir}/apps/superkaramba/themes/default.theme | grep -v "%{theme_name}" > %{_datadir}/apps/superkaramba/themes/default.theme
+exit 0
 fi
 
 
