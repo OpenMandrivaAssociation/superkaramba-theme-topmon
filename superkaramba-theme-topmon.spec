@@ -2,7 +2,7 @@
 %define theme_name      topmon
 %define name            %{base_name}-%{theme_name}
 %define version         0.3
-%define release         %mkrel 6
+%define release         7
 
 Name:	 %{name}
 Version: %{version}
