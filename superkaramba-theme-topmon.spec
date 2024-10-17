@@ -11,7 +11,7 @@ Summary: Monitoring theme for superkaramba
 License: GPL
 Group:   Monitoring
 Source:  %{theme_name}.tar.bz2
-URL:     http://kde-look.org/content/show.php?content=21482
+URL:     https://kde-look.org/content/show.php?content=21482
 Requires: superkaramba >= 0.35
 Requires: python
 BuildRoot: %{_tmppath}/%{name}-buildroot
